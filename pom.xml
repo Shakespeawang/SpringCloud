@@ -51,5 +51,7 @@
     <module>product-data-service</module>
     <module>ribbon</module>
       <module>product-view-service-feign</module>
+    <module>Server</module>
+
   </modules>
 </project>

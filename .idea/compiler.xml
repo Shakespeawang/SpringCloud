@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Server" />
         <module name="ribbon" />
         <module name="productviewservicefeign" />
         <module name="productDataservice" />
@@ -15,19 +16,26 @@
     <bytecodeTargetLevel>
       <module name="childMaven" target="1.7" />
       <module name="childMavenProject" target="1.7" />
+      <module name="config_server" target="1.8" />
+      <module name="configserver" target="1.8" />
       <module name="productdataservice" target="1.8" />
       <module name="productviewserviceribbon" target="1.7" />
+      <module name="serverconfig" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EurekaChild" options="-parameters" />
+      <module name="Server" options="-parameters" />
       <module name="childMaven" options="-parameters" />
+      <module name="config_server" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="productDataservice" options="-parameters" />
       <module name="productdataservice" options="-parameters" />
       <module name="productviewservicefeign" options="-parameters" />
       <module name="productviewserviceribbon" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="serverconfig" options="-parameters" />
     </option>
   </component>
 </project>

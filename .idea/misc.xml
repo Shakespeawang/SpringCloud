@@ -11,7 +11,10 @@
       <set>
         <option value="$PROJECT_DIR$/childMaven/pom.xml" />
         <option value="$PROJECT_DIR$/childMavenProject/pom.xml" />
+        <option value="$PROJECT_DIR$/config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/product-view-service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/serverconfig/pom.xml" />
       </set>
     </option>
   </component>
